@@ -1,0 +1,2 @@
+github "dasmer/GiltKit" "master"
+github "Alamofire/AlamofireImage" ~> 2.4
