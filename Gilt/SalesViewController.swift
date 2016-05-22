@@ -1,6 +1,7 @@
 import UIKit
-import GiltKit
 import AlamofireImage
+import GiltKit
+
 
 class SalesViewController: UITableViewController {
 
@@ -19,9 +20,10 @@ class SalesViewController: UITableViewController {
 
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        client.listSalesForStore(.Men, kind: .Upcoming) { sales in
+        
+        client.listSalesForStore(.Men, kind: .Upcoming) { [weak self] sales in
             dispatch_async(dispatch_get_main_queue()) {
-                self.sales = sales
+                self?.sales = sales
             }
         }
     }
@@ -48,4 +50,3 @@ class SalesViewController: UITableViewController {
         return 150
     }
 }
-
