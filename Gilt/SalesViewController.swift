@@ -1,7 +1,6 @@
 import UIKit
 import AlamofireImage
 
-
 class SalesViewController: UITableViewController {
 
     override func viewDidLoad() {

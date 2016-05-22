@@ -10,7 +10,6 @@
 		3A00EEBB1CD9840C008DCBD1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A00EEB91CD9840C008DCBD1 /* Alamofire.framework */; };
 		3A00EEBC1CD9840C008DCBD1 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A00EEBA1CD9840C008DCBD1 /* AlamofireImage.framework */; };
 		3A00EEBE1CD9929C008DCBD1 /* SaleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A00EEBD1CD9929C008DCBD1 /* SaleCell.swift */; };
-		3A268C201CF2452B0030F135 /* SaleWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A268C1F1CF2452B0030F135 /* SaleWrapper.swift */; };
 		3A9C094E1CDFCC2500582BCD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9C094C1CDFCC2500582BCD /* Interface.storyboard */; };
 		3A9C09501CDFCC2500582BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9C094F1CDFCC2500582BCD /* Assets.xcassets */; };
 		3A9C09571CDFCC2500582BCD /* Gilt Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3A9C09561CDFCC2500582BCD /* Gilt Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -75,7 +74,6 @@
 		3A00EEB91CD9840C008DCBD1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		3A00EEBA1CD9840C008DCBD1 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		3A00EEBD1CD9929C008DCBD1 /* SaleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleCell.swift; sourceTree = "<group>"; };
-		3A268C1F1CF2452B0030F135 /* SaleWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleWrapper.swift; sourceTree = "<group>"; };
 		3A9C094A1CDFCC2500582BCD /* Gilt Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gilt Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9C094D1CDFCC2500582BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		3A9C094F1CDFCC2500582BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 			children = (
 				3A9C096D1CDFD11200582BCD /* SaleTableRowController.swift */,
 				3A9C095B1CDFCC2500582BCD /* SalesInterfaceController.swift */,
-				3A268C1F1CF2452B0030F135 /* SaleWrapper.swift */,
 				3A9C09771CDFE22800582BCD /* SaleInterfaceController.swift */,
 				3A9C095D1CDFCC2500582BCD /* ExtensionDelegate.swift */,
 				3A9C095F1CDFCC2500582BCD /* Assets.xcassets */,
@@ -365,7 +362,6 @@
 				3A9C095C1CDFCC2500582BCD /* SalesInterfaceController.swift in Sources */,
 				3A9C09781CDFE22800582BCD /* SaleInterfaceController.swift in Sources */,
 				3A9C096E1CDFD11200582BCD /* SaleTableRowController.swift in Sources */,
-				3A268C201CF2452B0030F135 /* SaleWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
