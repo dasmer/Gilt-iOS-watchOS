@@ -20,7 +20,8 @@ class SaleInterfaceController: WKInterfaceController {
         nameLabel.setText(nil)
         descriptionLabel.setText(nil)
 
-        imageDownloader.downloadImage(URLRequest: NSURLRequest(URL: NSURL())) { response in
+        let url = NSURL(string: "http://cdn.wpfreeware.com/wp-content/uploads/2014/09/placeholder-images.jpg")!
+        imageDownloader.downloadImage(URLRequest: NSURLRequest(URL: url)) { response in
             dispatch_async(dispatch_get_main_queue()) {
                 self.loadingImageLabel.setHidden(true)
                 self.photoView.setHidden(false)

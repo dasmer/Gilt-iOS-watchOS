@@ -23,7 +23,8 @@ class SalesViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCellWithIdentifier(NSStringFromClass(SaleCell.self), forIndexPath: indexPath) as? SaleCell else { return UITableViewCell() }
 
-        cell.photoView.af_setImageWithURL(NSURL())
+        let url = NSURL(string: "http://cdn.wpfreeware.com/wp-content/uploads/2014/09/placeholder-images.jpg")!
+        cell.photoView.af_setImageWithURL(url)
         cell.nameLabel.text = nil
 
         return cell
